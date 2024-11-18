@@ -1,0 +1,96 @@
+/* components/skills/skills.module.css */
+
+#skills {
+    padding: 24px 0;
+  }
+  
+  .skillsSection {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .skillsSection h2 {
+    font-size: 0.75rem;
+    color: #3b82f6;
+    letter-spacing: 0.1em;
+    font-weight: 500;
+    margin-bottom: 8px;
+  }
+  
+  .skillsSection h1 {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #111827;
+  }
+  
+  .skillCardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: -5rem;
+  }
+  
+  .skillCard {
+    padding: 24px;
+    width: 33.333%;
+    box-sizing: border-box;
+  }
+  
+  .skillCardInner {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skillCardHeader {
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+  
+  .skillCardHeader .icon {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #3b82f6;
+    color: white;
+    margin-right: 16px;
+  }
+  
+  .skillCardHeader h2 {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #111827;
+  }
+  
+  .skillCardProgress {
+    flex-grow: 1;
+    position: relative;
+    height: 4px;
+    background-color: #e5e7eb;
+    border-radius: 8px;
+    margin-bottom: 12px;
+  }
+  
+  .skillCardProgressBar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    border-radius: 8px;
+    background-color: #3b82f6;
+  }
+  
+  .skillCardPercentage {
+    font-weight: 700;
+    color: #3b82f6;
+    text-align: right;
+    font-size: 1rem;
+  }
+  

@@ -1,0 +1,95 @@
+/* navbar.module.css */
+
+/* Basic Styles for Navbar */
+.navbar {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+}
+
+.navbarContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.navbarLogo {
+  display: flex;
+  align-items: center;
+}
+
+.navbarLogo img {
+  width: 70px;
+}
+
+.navbarLogoText {
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.navbarLinks {
+  display: flex;
+  align-items: center;
+}
+
+.navbarLink {
+  margin-left: 1.5rem;
+  font-size: 1rem;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.navbarLink:hover {
+  color: #007bff;
+}
+
+.navbarButton {
+  display: inline-flex;
+  align-items: center;
+  background-color: #f0f0f0;
+  border: 0;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 1.5rem;
+  font-size: 1rem;
+}
+
+.navbarButton:hover {
+  background-color: #e0e0e0;
+}
+
+.navbarIcon {
+  margin-left: 0.5rem;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .navbarContainer {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1rem;
+  }
+
+  .navbarLinks {
+    width: 100%;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-left: 0;
+  }
+
+  .navbarLink {
+    margin-left: 0;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+
+  .navbarButton {
+    margin-top: 1rem;
+  }
+}

@@ -1,0 +1,101 @@
+/* about.module.css */
+
+/* Main section */
+.aboutSection {
+    padding: 4rem 0;
+  }
+  
+  .aboutContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .aboutImageContainer {
+    width: 100%;
+    max-width: 300px;
+    margin-bottom: 1rem;
+  }
+  
+  .aboutImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
+  .aboutTextContainer {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .aboutTextContainer h1 {
+    font-size: 2.25rem;
+    color: #333;
+    margin-bottom: 1rem;
+  }
+  
+  .aboutTextContainer p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 1.5rem;
+  }
+  
+  .aboutButtons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  /* Button styles */
+  .button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .viewCV {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .followLink {
+    background-color: #f1f1f1;
+    color: #333;
+  }
+  
+  .button:hover {
+    opacity: 0.8;
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .aboutContainer {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .aboutImageContainer {
+      max-width: 90%;
+    }
+  
+    .aboutTextContainer {
+      text-align: center;
+    }
+  
+    .aboutTextContainer h1 {
+      font-size: 1.5rem;
+    }
+  
+    .aboutTextContainer p {
+      font-size: 1rem;
+    }
+  }
+  
